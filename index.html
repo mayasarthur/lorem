@@ -3386,13 +3386,14 @@ if you'd like to explore further disfiguring the site, you might try adding the 
 	canvas {
 		position: fixed;
 		top: 0;
+		left: 0;
 	}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
 <script type="text/javascript">
 	
 	function setup(){
-		createCanvas(1000,1000);
+		createCanvas(1300,1000);
 	}
 
 	function draw(){
@@ -3400,8 +3401,10 @@ if you'd like to explore further disfiguring the site, you might try adding the 
 	}
 
 	function mouseMoved(){
+		var x = [900, 300, 400];
+		var y = [0, 950, 500];
 		stroke(random(255),random(255),random(255))
-		line(random(1000), random(1000), 900, 950);
+		line(random(1300), random(1000), random(x), random(y));
 	}
 </script>
 </body>
