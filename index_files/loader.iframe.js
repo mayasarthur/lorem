@@ -1,0 +1,4 @@
+/*! updated; 02-27-2018 04:46 PM **/
+
+
+!function(FNC,$,newrelic){!function(ISA){if(ISA&&FNC.CDN&&"prod"===FNC.CDN.env&&newrelic&&"function"==typeof newrelic.setErrorHandler){var CoreTracker=ISA.provider("coreTracker"),NR=ISA.provider("new-relic"),adBlockOn=CoreTracker.isEnabled();newrelic.setErrorHandler(function(err){return NR.setCustomPageAction({JSErrorEvent:{source:"core.video",type:err.name,message:err.message,stack:err.stack,adBlockOn:adBlockOn}}),!1})}}(FNC.ISA),FNC.Loader.load(["/static/orion/scripts/core/video/ag.app.js"],function(){FNC.core.video.load(function(API){var type=$("body").attr("data-type")||null;type&&API.__iframe(type,{})})})}(window.FNC||{},window.jQuery,window.newrelic);

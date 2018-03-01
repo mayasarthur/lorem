@@ -1,0 +1,2 @@
+/** FOX NEWS ISA | 02-27-2018 10:47 AM **/
+!function(a){var b="butter-1",c=a.ISA.__Instance;c.require(["require","jquery","providers/optimizely.campaigns"],function(a,c,d){d.set({id:b,events:{close:d.getAttr(b,"onClose")||c.noop,allow:d.getAttr(b,"onAllow")||c.noop}},d.getAttr(b,"onLoad")||c.noop)})}(window.FNC);

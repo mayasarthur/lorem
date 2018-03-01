@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+
+
+var marketFutures = new Array();
+
+              marketFutures[0]= new indexData(
+                        "NASDAQ 100 INDEX FUTURES,00-0000,ETH",
+			"n.a.",
+			"n.a.",
+			"n.a."         
+	);
+
+
+              marketFutures[1]= new indexData(
+                        "E-MINI NASDAQ 100 INDEX FUTURES,03-2018,ETH",
+			"6,872.00",
+			"+7.00",
+			"+0.10%"         
+	);
+
+
+              marketFutures[2]= new indexData(
+                        "S&amp;P 500 INDEX FUTURES,03-2018,ETH",
+			"2,708.60",
+			"-5.80",
+			"-0.21%"         
+	);
+
+
+              marketFutures[3]= new indexData(
+                        "E-MINI S&amp;P 500 INDEX FUTURES,03-2018,ETH",
+			"2,710.75",
+			"-3.75",
+			"-0.14%"         
+	);
+
+
+              marketFutures[4]= new indexData(
+                        "DOW JONES INDUSTRIAL AVERAGE INDEX ($10 MULTIPLIER) FUTURES,00-0000,ETH",
+			"n.a.",
+			"n.a.",
+			"n.a."         
+	);
+
+
+              marketFutures[5]= new indexData(
+                        "E-MINI DOW ($5) FUTURES,03-2018,ETH",
+			"25,002.00",
+			"-36.00",
+			"-0.14%"         
+	);
+
